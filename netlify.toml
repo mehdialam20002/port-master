@@ -1,0 +1,6 @@
+[build]
+  command = "CI=false npm install --legacy-peer-deps && npm run build"
+  publish = "build"
+
+[dev]
+  command = "npm start"
