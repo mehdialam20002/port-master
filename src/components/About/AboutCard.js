@@ -18,25 +18,34 @@ const AboutCard = () => {
       >
         Hi Everyone! 👋
       </motion.h2>
+
       <p className="text-xl text-center leading-relaxed text-gray-200">
-        I'm <span className="font-bold text-yellow-300">Mehdi Alam</span> rooted in the vibrant culture and timeless heritage of  
-        <span className="font-bold text-yellow-300">Bihar, India</span>.
+        I'm <span className="font-bold text-yellow-300">Mehdi Alam</span> — a developer from 
+        <span className="font-bold text-yellow-300"> Delhi, India</span> with a passion for building impactful digital solutions.
       </p>
+
       <p className="mt-4 text-center text-gray-300 text-lg">
-        Currently, I work as a <span className="font-bold text-yellow-300">Software Development Engineer</span> 
-        at Finolity Consultancy Pvt. Ltd., transforming ideas into innovative digital solutions.
+        I’ve worked as a <span className="font-bold text-yellow-300">Software Development Engineer</span> and 
+        <span className="font-bold text-yellow-300"> Frontend Developer</span> at Finolity, where I developed full-stack web applications using React.js, Node.js, and WordPress.
       </p>
+
       <p className="mt-4 text-center text-gray-400 text-lg">
-        I hold a degree in Integrated B.Tech (CSE) from MMDU, Haryana, fueling my passion for technology and problem-solving.
+        I hold a <span className="font-bold text-yellow-300">B.Tech in Data Science</span> from MMDU, Haryana (GPA: 8.0/10). My journey is driven by learning, problem-solving, and real-world impact.
       </p>
-      
+
+      <p className="mt-4 text-center text-gray-400 text-lg">
+        I'm currently open to new opportunities where I can grow, contribute, and innovate alongside passionate teams.
+      </p>
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.5 }}
         className="mt-10 text-center"
       >
-        <h3 className="text-3xl font-semibold underline decoration-yellow-300 decoration-4 mb-6 drop-shadow-md">Apart from coding, I love:</h3>
+        <h3 className="text-3xl font-semibold underline decoration-yellow-300 decoration-4 mb-6 drop-shadow-md">
+          Apart from coding, I love:
+        </h3>
         <ul className="mt-4 space-y-4 text-2xl font-medium">
           <li className="flex items-center justify-center gap-4 text-lg text-gray-200 hover:text-yellow-300 transition-colors duration-300">
             <ImPointRight className="text-yellow-300 text-3xl animate-bounce" /> 🎮 Immersing in Games
@@ -46,7 +55,7 @@ const AboutCard = () => {
           </li>
         </ul>
       </motion.div>
-      
+
       <motion.p
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -55,7 +64,10 @@ const AboutCard = () => {
       >
         "Turning ideas into meaningful digital experiences."
       </motion.p>
-      <footer className="mt-8 text-center text-md text-gray-300 font-light">— Mehdi</footer>
+
+      <footer className="mt-8 text-center text-md text-gray-300 font-light">
+        — Mehdi
+      </footer>
     </motion.div>
   );
 };

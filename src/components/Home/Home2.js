@@ -72,6 +72,7 @@ function Home2() {
           .name-animation span:nth-child(9) { animation-delay: 0.8s; }
         `}
       </style>
+
       <Container fluid className="home-about-section animate-section" id="about">
         <Container>
           <Row>
@@ -84,30 +85,29 @@ function Home2() {
                   <span key={index}>{letter}</span>
                 ))}
               </h2>
+
               <p className="home-about-body">
-                ✨ Programming is not just a skill for me—it’s my passion, my playground, and a journey of endless learning.
+                👋 I'm a full-stack web developer from <b className="purple">Delhi, India</b>, with a strong foundation in data science and modern web technologies.
                 <br />
-                <br />🚀 I am skilled in modern classics like
-                <i>
-                  <b className="purple"> ReactJS, Java, and WordPress, and I’m constantly expanding my knowledge base. </b>
-                </i>
                 <br />
-                <br />🎨 My areas of interest include
-                <i>
-                  <b className="purple"> crafting cutting-edge Web Technologies, developing innovative Products, and </b> also in areas related to
-                  <b className="purple"> exploring the creative world of Designing.</b>
-                </i>
+                🚀 Formerly, I’ve worked as a <b className="purple">Software Development Engineer</b> and <b className="purple">Frontend Developer</b> at Finolity, where I built production-level applications using <b className="purple">React.js, Node.js, and WordPress</b>.
                 <br />
-                <br />💡 Whenever I get the chance, I channel my creativity into building impactful solutions with <b className="purple">Node.js</b> and
-                <i>
-                  <b className="purple"> React.js and Next.js.</b>
-                </i>
+                <br />
+                🎓 I hold a <b className="purple">B.Tech in Data Science</b> from MMDU, Haryana with a GPA of 8.0/10, and I love translating business needs into beautiful digital experiences.
+                <br />
+                <br />
+                💡 I specialize in crafting responsive UIs, building scalable backends, and working on real-world web products. I'm also passionate about design and clean user experiences.
+                <br />
+                <br />
+                💼 <i>Currently open to new opportunities</i> — be it full-time or freelance — to build, innovate, and grow alongside amazing teams.
               </p>
             </Col>
+
             <Col md={4} className="myAvtar animate-section">
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Col>
           </Row>
+
           <Row>
             <Col md={12} className="home-about-social animate-section">
               <h1>FIND ME ON</h1>
